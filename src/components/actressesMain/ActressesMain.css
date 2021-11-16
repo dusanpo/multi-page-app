@@ -1,0 +1,53 @@
+
+ main {
+  font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:  #13bd8a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 550px;
+  background: white;
+  border-radius: 0.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  
+}
+
+.content button {
+  color: white;
+  display: block;
+  width: 100%;
+  border-color: transparent;
+  background: rgba(242, 138, 178, 0.8);;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.person {
+ display: flex;
+ align-items: center;
+ margin-bottom: -2.5rem;
+}
+
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+ 
+}
+.person h5 {
+  margin-left: 1.25rem;
+}
+
+
+

@@ -1,0 +1,75 @@
+body {
+    background:hsl(210, 22%, 85%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+.section {
+    padding: 5rem 0;
+  }
+  
+  .sectionCenter {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 40rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: hsl(205, 86%, 17%);
+  }
+
+  p {
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    color: rgb(70, 52, 52);
+    border-radius: 0.25rem;
+  }
+
+  .btnSbmt {
+    text-transform: uppercase;
+    background: hsl(205, 78%, 60%);
+    color: hsl(205, 86%, 17%);
+    padding: 0.375rem 0.70rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    
+    font-size: 0.875rem;
+    border: 2px solid hsl(205, 78%, 60%);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+  }
+
+  .btnSbmt:hover {
+    color: hsl(205, 78%, 60%);
+    background: hsl(205, 86%, 81%);
+    border-color: hsl(205, 86%, 81%);
+  }
+
+  
+ input {
+    padding: 0.25rem 0.5rem;
+    width: 4.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .loreForm {
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  label {
+    font-size: 1.25rem;
+    color: hsl(205, 86%, 17%);
+  }

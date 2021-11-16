@@ -1,0 +1,32 @@
+.cocktailHeader{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: sans;
+    color: rgb(9, 255, 0) !important;
+    font-size:45px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+.beerHeader{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: sans;
+    color: #f5c793 !important;
+    font-size:45px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+.coffeHeader{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: sans;
+    color: #6f4e37 !important;
+    font-size:45px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+
+
+.paragraph{
+    color:black !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
